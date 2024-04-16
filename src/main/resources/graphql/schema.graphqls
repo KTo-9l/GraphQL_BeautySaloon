@@ -1,0 +1,17 @@
+type Query {
+    clientById(id: ID): Client
+    stylistById(id: ID): Stylist
+}
+
+type Client {
+    id: ID
+    name: String
+    stylist: Stylist
+    isDeleted: Boolean
+}
+
+type Stylist {
+    id: ID
+    name: String
+    isDeleted: Boolean
+}
