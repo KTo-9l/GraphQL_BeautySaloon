@@ -1,4 +1,4 @@
-package com.beautysaloon.springbootrest.models;
+package org.sillysociety.graphqlserver.models;
 
 import jakarta.persistence.*;
 @Entity
